@@ -1,6 +1,6 @@
 # Escalation Policy
 
-This system implies paperless work in your daily work. Can handle thousand/millions of user.
+This system implies paperless work in your daily job. Can handle thousand/millions of user.
 
 ## Features
 
