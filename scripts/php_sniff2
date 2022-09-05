@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Todo: decide whether we should be ignoring CamelCapsMethodName.. it warns for methods like "payment_lines()"
+#       in models
+# Note: /database has no namespace that's why we did not include namespace checking in it
+#       Here's the explanation why /database has no namespace https://stackoverflow.com/q/41233837
+~/.composer/vendor/bin/phpcs ./database/ --tab-width=4 -p --standard=PSR1,PSR2 \
+   --exclude=PSR2.Namespaces.UseDeclaration,PSR1.Classes.ClassDeclaration

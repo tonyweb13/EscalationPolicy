@@ -1,0 +1,68 @@
+.title {
+    width: 100%;
+    text-align:center;
+}
+.plain {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    page-break-after:avoid;
+}
+hr.divider {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.table-border {
+    page-break-after:avoid;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:100%;
+    text-align:center;
+}
+.table-border, .table-border-tr, .table-border-td {
+    border: 1px solid black;
+    padding: 10px;
+}
+.offenseTable {
+    padding: 10px;
+}
+.imgdiv {
+    position: absolute;
+}
+.clipzone2 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.clipzone2 img {
+    width: 100%;
+    margin: -650px 0 0 0;
+}
+.clipzone
+{
+    position:relative;
+    height:650px;
+    overflow:hidden;
+}
+.mainContent {
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 12px;
+    page-break-after: avoid;
+    text-align: justify;
+    page-break-after:avoid;
+}
+.mainPreview {
+    border:1px solid black;
+    margin-left:24%;
+    margin-right:26%;
+    margin-top:3%;
+    background-color:white;
+    padding-bottom: 5%;
+}
+.asterisk_label {
+    color:red;
+    position: absolute;
+    margin-left: -5px;
+}

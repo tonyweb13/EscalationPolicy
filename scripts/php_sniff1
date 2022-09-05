@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Todo: decide whether we should be ignoring CamelCapsMethodName.. it warns for methods like "payment_lines()"
+# in models
+~/.composer/vendor/bin/phpcs ./app/ ./tests/ ./routes/ ./config/ --ignore=*.blade.php --tab-width=4 -p \
+    --standard=PSR1,PSR2 --exclude=PSR2.Namespaces.UseDeclaration,PSR1.Methods.CamelCapsMethodName
